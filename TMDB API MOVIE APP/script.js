@@ -1,6 +1,6 @@
 //TMDB 
 
-const API_KEY = 'api_key=843e8dda7bc408390a99fae6ac001832';
+const API_KEY = 'api_key=75dcd968241395b503a4d7e76135cf71';
 const BASE_URL = 'https://api.themoviedb.org/3';
 const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&'+API_KEY;
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
@@ -253,7 +253,7 @@ function openNav(movie) {
 
           if(site == 'YouTube'){
               
-            embed.push(`
+            embed.push(``
               <iframe width="560" height="315" src="https://www.youtube.com/embed/${key}" title="${name}" class="embed hide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           
           `)
